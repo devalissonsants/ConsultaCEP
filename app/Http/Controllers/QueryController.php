@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\QueryZipCodeRequest;
 use App\Service\QueryService;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
 
 class QueryController extends Controller
 {
